@@ -61,7 +61,7 @@ class natorderNet(nn.Module):
         # B 1 kN H
         key = key.unsqueeze(1)
         # B qN kN H
-        e = torch.tanh(query + key)
+        e = torch.relu(query + key)
         # B qN kN
         e = self.linears[4](e).squeeze(-1)
         sum_e = e.sum(0).unsqueeze(0)
@@ -113,7 +113,7 @@ class natorderNet(nn.Module):
         loss_col = loss_col / batch
 
 
-        e1 = torch.tanh(query + key)
+        e1 = torch.relu(query + key)
         e1 = self.linears[4](e1).squeeze(-1)
         sum_e1 = e1.sum(0).unsqueeze(0)
         sum_e1.masked_fill_(pointed_mask_by_target == 0, -1e9)
@@ -226,7 +226,7 @@ def nat_pointer(args, model, imgfeature, captions, lengths, doc_num):
     # B 1 kN H
     key = keys.unsqueeze(1)
     # B qN kN H
-    e = torch.tanh(query + key)
+    e = torch.relu(query + key)
     # B qN kN
     e = model.linears[4](e).squeeze(-1)
     sum_e = e.sum(0).unsqueeze(0)

@@ -8,7 +8,6 @@ gensim 4.1.2
 torchvision 0.7.0
 
 Our implementation adopts 300d GloVe for word embedding. 
-The glove.42B.300d.txt can be downloaded from https://nlp.stanford.edu/data/glove.42B.300d.zip
 
 ## Data and Preprocessing
 ### Dataset

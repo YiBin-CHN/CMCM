@@ -19,7 +19,7 @@ The SIND dataset can be downloaded from the Visual Storytelling website https://
 
 The raw TACoS Multi-Level Corpus can be downloaded from https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/tacos-multi-level-corpus/ 
 
-The image frames and corresponding sentences for videos can be seen from https://www.filecad.com/fQa8/TACoS.zip 
+The image frames and corresponding sentences for video can be seen from https://www.filecad.com/fQa8/TACoS.zip 
 
 ### Preprocessing
 All the images are resized to 256x256 by resize.py. 
@@ -28,10 +28,10 @@ All the images are resized to 256x256 by resize.py.
 python resize.py --image_dir [image_dir] --output_dir [output_dir]
 ```
 
-The build_vocab.py script can be used to build vocabulary.  The obtained pkl file can be placed in the voc directory.
+The build_vocab.py can be used to build vocabulary.
 
 ## Training & Test
-Run maintbi.py and mainibt.py script to train and test the model for sentence and image ordering. 
+Run maintbi.py and mainibt.py to train and test the model for sentence and image ordering. 
 
 ```
 python main.py

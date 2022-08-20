@@ -14,8 +14,6 @@ The glove.42B.300d.txt can be downloaded from https://nlp.stanford.edu/data/glov
 ### Dataset
 The SIND dataset can be downloaded from the Visual Storytelling website https://visionandlanguage.net/VIST/dataset.html
 
-The preprocessed dataset can be downloaded from https://www.filecad.com/o8kB/data_ordering.zip
-
 The raw TACoS Multi-Level Corpus can be downloaded from https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/tacos-multi-level-corpus/ 
 
 The image frames and corresponding sentences for videos can be seen from https://www.filecad.com/fQa8/TACoS.zip 

@@ -2,9 +2,13 @@
 Codes for our paper "Non-Autoregressive Cross-Modal Coherence Modelling" in ACM MM 2022
 ## Prerequisites
 Pytorch v1.6.0 
+
 Python 3
+
 nltk 3.6.7
+
 gensim 4.1.2
+
 torchvision 0.7.0
 
 Our implementation adopts 300d GloVe for word embedding. 

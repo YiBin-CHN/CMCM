@@ -17,9 +17,7 @@ torchvision 0.7.0
 ### Dataset
 The SIND dataset can be downloaded from the Visual Storytelling website https://visionandlanguage.net/VIST/dataset.html
 
-The raw TACoS Multi-Level Corpus can be downloaded from https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/tacos-multi-level-corpus/ 
-
-The image frames and corresponding sentences for video can be seen from https://www.filecad.com/fQa8/TACoS.zip 
+The raw TACoS Multi-Level Corpus can be downloaded from https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/tacos-multi-level-corpus/  The image frames for sampling and corresponding sentences can be seen from https://www.filecad.com/fQa8/TACoS.zip 
 
 ### Preprocessing
 All the images are resized to 256x256 by resize.py. 

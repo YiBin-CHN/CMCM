@@ -16,6 +16,10 @@ The SIND dataset can be downloaded from the Visual Storytelling website https://
 
 The preprocessed dataset can be downloaded from https://www.filecad.com/o8kB/data_ordering.zip
 
+The raw TACoS Multi-Level Corpus can be downloaded from https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/tacos-multi-level-corpus/ 
+
+Image frames and corresponding sentences for video can be seen from https://www.filecad.com/fQa8/TACoS.zip 
+
 ### Preprocessing
 All the images are resized to 256x256 by resize.py. 
 

@@ -11,7 +11,7 @@ gensim 4.1.2
 
 torchvision 0.7.0
 
-Our implementation adopts 300d GloVe for word embedding. 
+300d GloVe for word embedding
 
 ## Data and Preprocessing
 ### Dataset

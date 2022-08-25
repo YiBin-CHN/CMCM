@@ -34,3 +34,19 @@ Run maintbi.py and mainibt.py to train and test the model for sentence and image
 ```
 python main.py
 ```
+## Citation
+If our codes and dataset are helpful to your research, please cite:
+
+```
+@inproceedings{MM22CMCM,
+  author    = {Yi Bin and
+               Wenhao Shi and
+               Jipeng Zhang and
+               Yujuan Ding and
+               Yang Yang and
+               Heng Tao Shen,
+  title     = {Non-Autoregressive Cross-Modal Coherence Modelling},
+  booktitle = {Proceedings of the 30th ACM International Conference on Multimedia (MM'22), October 10–14, 2022, Lisbon, Portugal.},
+  year      = {2022},
+}
+```
